@@ -1,0 +1,4 @@
+interface Update {
+    update(): void;
+   
+}

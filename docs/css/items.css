@@ -1,0 +1,59 @@
+item{
+    width: 50px;
+    height: 50px;   
+    background-position: center; 
+    margin: 7.5px;
+    background-image: url('../images/notfound.png'); 
+    background-size: cover;
+}
+item[type=woodItem]{
+    background-image: url('../images/wood.png');
+    background-size: cover;
+}
+item[type=stoneItem]{
+    background-image: url('../images/Rock.png');
+    background-size: cover;
+}
+item[type=stickItem]{
+    background-image: url('../images/stick.png');
+    background-size: cover;
+}
+item[type=sharpRockItem]{
+    background-image: url('../images/sharpRock.png');
+    background-size: cover;
+}
+item[type=fiberItem]{
+    background-image: url('../images/fiber.png');
+    background-size: cover;
+}
+item[type=ropeItem]{
+    background-image: url('../images/rope.svg');
+    background-size: auto;
+}
+item[type=axeItem]{
+    background-image: url('../images/axe.png');
+    background-size: cover;
+}
+item[type=axeHeadItem]{
+    background-image: url('../images/axeHead.png');
+    background-size: cover;
+}
+item[type=spearItem]{
+    background-image: url('../images/spear.png');
+    background-size: cover;
+
+}
+holding[animate=true] item[type=spearItem]{
+    animation: poke 1s 1; 
+}
+holding[animate=true] item[type=axeItem]{
+    animation: swing 2s 1; 
+}
+item[type=hideItem]{
+    background-image: url('../images/Hide.png');
+    background-size: cover;
+}
+item[type=thatchItem]{
+    background-image: url('../images/Thatch.png');
+    background-size: cover;
+}
